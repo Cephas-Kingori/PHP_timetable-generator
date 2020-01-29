@@ -1,0 +1,29 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 300px 300px 300px;
+    grid-template-rows: 10fr 0fr 3.5fr;
+    grid-template-areas: ". . . ." ". . . ." ". . . .";
+    margin: 50px;
+}
+.form-group{
+   
+    width: 200px;
+}
+label {
+    width: 50px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+.formlike{
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 3pxrgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+}
